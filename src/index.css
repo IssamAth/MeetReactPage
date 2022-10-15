@@ -67,4 +67,5 @@ h1 {
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-bg-variant);
+    font-weight: bold;
 }
