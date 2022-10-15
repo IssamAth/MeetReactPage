@@ -2,7 +2,38 @@ h1 {
     color: var(--color-bg-variant);
 }
 
+.container {
+   
+}
 
-/* .twitter-follow {
-    background: black; not working
-} */
+
+.logo {
+    padding: 50px 30px 50px 0px;
+}
+
+.logo img {
+    display: block;
+}
+
+.thr-img-top {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.right-top-img {
+    justify-self: end;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.twitter-follow {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: start;
+    margin-top: 2rem;
+    padding: 2rem;
+    
+};
+
