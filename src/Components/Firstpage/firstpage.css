@@ -1,6 +1,4 @@
-h1 {
-    color: var(--color-bg-variant);
-}
+
 
 .container {
    
@@ -8,7 +6,7 @@ h1 {
 
 
 .logo {
-    padding: 50px 30px 50px 0px;
+    padding: 50px 30px 0px 0px;
 }
 
 .logo img {
@@ -18,22 +16,114 @@ h1 {
 .thr-img-top {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-between;
 }
 
 .right-top-img {
-    justify-self: end;
+    
     display: flex;
-    gap: 2rem;
+    gap: 2rem;   
+}
+
+.right-top-img .img2 {
+    margin-bottom: 2rem;
+    position: relative;
+    top: -25px;
+    left: -4rem;
+}
+
+.right-top-img .img5 {
+    margin-bottom: 2rem;
+    position: relative;
+    top: -5px;
+    left: -4rem;
+}
+
+.thr-img-top .Image3 {
+    position: relative;
+    bottom: -35px
+}
+
+
+h1 {
+    color: var(--color-bg-variant);
+    font-size: 10rem;
+    text-align: left;
+    position: relative;
+    top: -8rem;
+    right: -7rem;
+    height: 400px;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+.text-two-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: -18rem;
+    right: -7rem;
+} 
+
+.text-two-img h4 {
+    font-size: 1.6rem;
+    font-weight: 410;
+    position: relative;
+    bottom: -8rem;
+}
+
+.text-two-img .Image6 {
+    position: relative;
+    bottom: -1rem;
+    left: -7rem;
+}
+.text-two-img .Image1 {
+    position: relative;
+    right: -1rem;
+}
+
+
+.inside-container {
+    position: relative;
+    right: -7rem;
+    top: -11rem;
 }
 
 
 .twitter-follow {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px;
     justify-content: start;
-    margin-top: 2rem;
-    padding: 2rem;
+    position: relative;
+    bottom: -12rem;
     
-};
+}
+
+.twitter-follow h3{
+    margin-left: 1.2rem; 
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.twitter-follow img{
+    position: relative;
+    top: -0.5rem;
+}
+
+
+
+.bt-pic-twt {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: relative;
+    top: -6rem;
+}
+
+
+.bt-pic-twt .Image4{
+    position: relative;
+    left: -14rem;
+}
+
 
