@@ -29,8 +29,7 @@ const Firstpage = () => {
           </div>
         </div>
         
-        <h1 id='title' style={{
-        }}>
+        <h1 id='title'>
           <span className='one'>Meeet &nbsp; New 
           <br />
           Entrepr</span>
@@ -50,10 +49,10 @@ const Firstpage = () => {
         <div className="inside-container">
            <button className='btn'>Get notified at launch</button>
           <div className='bt-pic-twt'>
-               <div className='twitter-follow'>
+               <a href='#' className='twitter-follow'>
                   <img src={twitter} alt="" />
                   <h3>Follow us on Twitter</h3>
-               </div>
+               </a>
                 <div className='Image4'>
                   <img src={IMG4} alt="" />
                 </div>  
