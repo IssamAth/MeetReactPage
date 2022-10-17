@@ -9,6 +9,8 @@ import IMG5 from '../../assets/Avatar5.svg'
 import IMG6 from '../../assets/Avatar6.svg'
 import LOGO from '../../assets/Logo.svg'
 
+var element = document.getElementById('title');
+
 const Firstpage = () => {
   return (
     <div className='container'>
@@ -27,10 +29,13 @@ const Firstpage = () => {
           </div>
         </div>
         
-        <h1>
-          Meeet &nbsp; New 
+        <h1 id='title' style={{
+        }}>
+          <span className='one'>Meeet &nbsp; New 
           <br />
-          Entrepreneurs</h1>
+          Entrepr</span>
+          <span id='two'>e</span>neurs
+        </h1>
 
         <div class='text-two-img'>
             <h4>Meeet is a new social media platform for <br />Entrepreneurs to connect and socialize.</h4>
@@ -52,8 +57,8 @@ const Firstpage = () => {
                 <div className='Image4'>
                   <img src={IMG4} alt="" />
                 </div>  
-              </div>
-           </div>
+          </div>
+        </div>
 
     </div>
   )

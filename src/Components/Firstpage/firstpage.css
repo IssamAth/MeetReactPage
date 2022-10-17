@@ -6,7 +6,7 @@
 
 
 .logo {
-    padding: 50px 30px 0px 0px;
+    padding: 3.125rem 1.875 0 0;
 }
 
 .logo img {
@@ -28,20 +28,20 @@
 .right-top-img .img2 {
     margin-bottom: 2rem;
     position: relative;
-    top: -25px;
+    top:-1.563rem;
     left: -4rem;
 }
 
 .right-top-img .img5 {
     margin-bottom: 2rem;
     position: relative;
-    top: -5px;
+    top: 0.313rem;
     left: -4rem;
 }
 
 .thr-img-top .Image3 {
     position: relative;
-    bottom: -35px
+    bottom: -2.188rem;
 }
 
 
@@ -52,9 +52,10 @@ h1 {
     position: relative;
     top: -8rem;
     right: -7rem;
-    height: 400px;
+    height: 25rem;
     line-height: 100%;
     margin-bottom: 0;
+    z-index: 9; /*put the text over pictures*/
 }
 
 .text-two-img {
@@ -125,5 +126,214 @@ h1 {
     position: relative;
     left: -14rem;
 }
+
+
+
+/* MEDIA QUERIES ================ ( Medium devices ) ================ */
+
+
+@media screen and (max-width: 1800px) {
+
+    * {
+        position: static;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 8rem;
+        position: relative;
+        top: -8rem;
+        left: -3rem;
+        line-height: 7.5rem;
+        
+        
+    }
+
+    .container {
+        width: var(--container-width-md);
+    }
+
+    .right-top-img{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-top-img .img5{
+        width: 8rem;
+        position: relative;
+        top: -4rem;
+    }
+
+    .right-top-img .img2{
+        position: relative;
+        left: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1030px) {
+  
+    h1 {
+        text-align: left;
+        font-size: 5rem;
+        position: relative;
+        top: -8rem;
+        left: -3rem;
+        line-height: 7.5rem;
+        
+        
+    }
+
+    .container {
+        width: var(--container-width-md);
+    }
+
+    .right-top-img{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-top-img .img5{
+        width: 8rem;
+        position: relative;
+        top: -5rem;
+        left: -7rem;
+    }
+
+    .right-top-img .img2{
+        position: relative;
+        left: 2rem;
+    }
+
+    .text-two-img .Image1{
+        position: relative;
+        left: -18rem;
+        top: -14rem;
+    }
+    .text-two-img .Image6{
+        position: relative;
+        left: -12rem;
+        top: -3rem;
+    }
+    .text-two-img h4{
+        width: 31rem;
+        font-size: 1.35rem;
+        text-align: left;
+        position: relative;
+        left: -9rem;
+        top: 2rem;
+        white-space: normal;
+    }
+
+    .btn {
+        position: relative;
+        left: -9rem;
+        top: -6.5rem;
+    }
+
+    .bt-pic-twt .Image4 img{
+       position: relative;
+       right: -3rem;
+       bottom: -2rem;
+       width: 14rem;
+    }
+    .bt-pic-twt .twitter-follow{
+       position: relative;
+       left: -9rem;
+    }
+}
+
+/* MEDIA QUERIES ================ ( Small devices ) ================ */
+
+@media screen and (max-width: 600px){
+    h1 {
+        line-height: 4rem;
+        font-size: 3.5rem;
+        text-align: left;
+        position: relative;
+        left: 0rem;
+        top: -2rem;
+        white-space: nowrap;
+    }
+
+    .bt-pic-twt .Image4 img {
+        display: none;
+    }
+
+    .text-two-img .Image1 {
+        display: none;
+    }
+
+    .right-top-img .img5 {
+        display: none;
+    }
+
+    .text-two-img .Image6{
+        position: relative;
+        left: -24rem;
+        top: 15.5rem;
+    }
+    .text-two-img .Image6 img{
+        width: 14rem;
+    }
+
+    .right-top-img {
+        position: relative;
+        left: 0rem;
+        top: 5rem;
+    }
+    .right-top-img .img2{
+        width: 15rem;
+    }
+
+    .thr-img-top .Image3 {
+        position: relative;
+        top: 5rem;
+    }
+    .thr-img-top .Image3 img{
+       width: 10rem;
+    }
+
+    .text-two-img {
+        margin: 0 auto;
+    }
+
+    .text-two-img h4{
+        position: relative;
+        left: -7rem;
+        font-size: 1.4rem;
+        white-space: nowrap; 
+    }
+    .inside-container .btn {
+        top: -11rem;
+        left: -7rem;
+        font-size: 1.9rem;
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .bt-pic-twt .twitter-follow{
+        top: 10rem;
+        left: -7.5rem;
+        white-space: nowrap;
+     }
+
+     .bt-pic-twt .twitter-follow img{
+        width: 4rem;
+     }
+
+    .bt-pic-twt .twitter-follow h3{
+        font-size: 2rem;
+     }
+
+     .logo img {
+        width: 10rem;
+     }
+
+
+}
+
+
 
 
